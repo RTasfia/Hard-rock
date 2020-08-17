@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="y">
+<body>
     <div class="container" >
         <nav class="navbar  navbar-dark my-3">
             <a class="navbar-brand" href="#">
@@ -46,18 +46,19 @@
             <div class="search-bar col-md-6 mx-auto">
                 <h1 class="text-center">Lyrics Search</h1>
                 <div class="search-box my-5">
-                    <input type="text" class="form-control" placeholder="Enter your artist song name" id="song-name">
+                    <input type="text" class="form-control" placeholder="Enter your artist song name" id="keyWord">
                     <button class="btn btn-success search-btn" id="search-button">Search</button>
                 </div>
             </div>
             
             <!-- === Fancy results === -->
-            <div class="search-result col-md-8 mx-auto py-4">
+            <div class="search-result col-md-8 mx-auto py-4" id="playList">
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song1">Purple Noon</h3>
-                        <p class="author lead">Album by <span id="artist1">Washed Out</span></p>
+                        <img src="" alt="" id="img1">
+                        <h3 class="lyrics-name" id="song1"></h3>
+                        <p class="author lead">Album by <span id="artist1"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button1">Get Lyrics</button>
@@ -68,8 +69,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song2">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist2">Washed Out</span></p>
+                        <img src="" alt="" id="img2">
+                        <h3 class="lyrics-name" id="song2"></h3>
+                        <p class="author lead" >Album by <span id="artist2"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button2">Get Lyrics</button>
@@ -79,8 +81,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song3">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist3">Washed Out</span></p>
+                        <img src="" alt="" id="img3">
+                        <h3 class="lyrics-name" id="song3"></h3>
+                        <p class="author lead" >Album by <span id="artist3"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button3">Get Lyrics</button>
@@ -90,8 +93,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song4">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist4">Washed Out</span></p>
+                        <img src="" alt="" id="img4">
+                        <h3 class="lyrics-name" id="song4"></h3>
+                        <p class="author lead" >Album by <span id="artist4"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button4">Get Lyrics</button>
@@ -101,8 +105,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song5">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist5">Washed Out</span></p>
+                        <img src="" alt="" id="img5">
+                        <h3 class="lyrics-name" id="song5"></h3>
+                        <p class="author lead" >Album by <span id="artist5"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button5">Get Lyrics</button>
@@ -112,8 +117,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song6">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist6">Washed Out</span></p>
+                        <img src="" alt="" id="img6">
+                        <h3 class="lyrics-name" id="song6"></h3>
+                        <p class="author lead" >Album by <span id="artist6"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button6">Get Lyrics</button>
@@ -123,8 +129,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song7">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist7">Washed Out</span></p>
+                        <img src="" alt="" id="img7">
+                        <h3 class="lyrics-name" id="song7"></h3>
+                        <p class="author lead" >Album by <span id="artist7"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button7">Get Lyrics</button>
@@ -134,8 +141,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song8">Purple Noon</h3>
-                        <p class="author lead" > Album by <span id="artist8">Washed Out</span></p>
+                        <img src="" alt="" id="img8">
+                        <h3 class="lyrics-name" id="song8"></h3>
+                        <p class="author lead" > Album by <span id="artist8"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button8">Get Lyrics</button>
@@ -145,8 +153,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song9">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist9">Washed Out</span></p>
+                        <img src="" alt="" id="img9">
+                        <h3 class="lyrics-name" id="song9"></h3>
+                        <p class="author lead" >Album by <span id="artist9"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button9">Get Lyrics</button>
@@ -156,8 +165,9 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name" id="song10">Purple Noon</h3>
-                        <p class="author lead" >Album by <span id="artist10">Washed Out</span></p>
+                        <img src="" alt="" id="img10">
+                        <h3 class="lyrics-name" id="song10"></h3>
+                        <p class="author lead" >Album by <span id="artist10"></span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success" id="lyrics-button10">Get Lyrics</button>
@@ -166,7 +176,7 @@
                 <!-- ./ single result -->
 
                 <div>
-                    <h2 id="heading"></h2>
+                    <h2 class ="text-success" id="heading"></h2>
                     <p id="lyrics"></p>
                 </div>
   
@@ -184,45 +194,46 @@
 
     <!-- Custom Script Here -->
     <script>
+        // Playlist
         document.getElementById("search-button").addEventListener("click",function(){
-            const input = document.getElementById("song-name").value;
-            fetch(`https://api.lyrics.ovh/suggest/${input}`)
-            .then(res=>res.json())
-            .then(data=>{
-                console.log(data.data.length);
-                console.log(data);
-                for(i=0;i<10;i++){
-                    const songTitle = data.data[i].title;
-                    const songArtist = data.data[i].artist.name;
-                    document.getElementById(`song${i+1}`).innerText = songTitle;
-                    document.getElementById(`artist${i+1}`).innerText = songArtist;
-
-                    console.log("rifa",songTitle);
-
-                    document.getElementById(`lyrics-button${i+1}`).addEventListener("click",function(){
-                        fetch(`https://api.lyrics.ovh/v1/${songArtist}/${songTitle}`)
-                        .then(res=>res.json())
-                        .then(data=>{
-                            if(data.lyrics === undefined){
-                                document.getElementById("heading").innerText = "No lyrics";
-                                document.getElementById("lyrics").innerText = "";
-
-                            }
-                            else{
-
+            const input = document.getElementById("keyWord").value;
+            if(input === ""){
+                alert("Please enter artist song name");
+            }
+            else{
+                const songList = document.getElementById("playList");
+                songList.style.display = "block";
+                fetch(`https://api.lyrics.ovh/suggest/${input}`)
+                .then(res=>res.json())
+                .then(data=>{
+                    console.log(data);
+                    for(i=0;i<10;i++){
+                        const songTitle = data.data[i].title;
+                        const songArtist = data.data[i].artist.name;
+                        document.getElementById(`song${i+1}`).innerText = songTitle;
+                        document.getElementById(`artist${i+1}`).innerText = songArtist;
+                        document.getElementById(`img${i+1}`).src = data.data[i].artist.picture_small;
+                        
+                        // Find lyrics
+                        document.getElementById(`lyrics-button${i+1}`).addEventListener("click",function(){
+                            fetch(`https://api.lyrics.ovh/v1/${songArtist}/${songTitle}`)
+                            .then(res=>res.json())
+                            .then(data=>{
                                 document.getElementById("heading").innerText = `${songTitle}
                                 ${songArtist}`
-                                document.getElementById("lyrics").innerText = data.lyrics;
-                            }
-                            
-
+                                if(data.lyrics === undefined){
+                                    document.getElementById("lyrics").innerText = "Lyrics not found";
+                                }
+                                else{
+                                    document.getElementById("lyrics").innerText = data.lyrics;
+                                }
+                            })
                         })
-                    })
-                }
-                
-            })
+                    }  
+                })
+            }
+            
         })
-        
     </script>
 
 </body>
