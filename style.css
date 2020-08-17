@@ -45,5 +45,7 @@ body{
 
 #heading{
     text-align: center;
-    color: lavenderblush;
+}
+.search-result{
+    display: none;
 }
