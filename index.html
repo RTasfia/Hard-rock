@@ -206,7 +206,6 @@
                 fetch(`https://api.lyrics.ovh/suggest/${input}`)
                 .then(res=>res.json())
                 .then(data=>{
-                    console.log(data);
                     for(i=0;i<10;i++){
                         const songTitle = data.data[i].title;
                         const songArtist = data.data[i].artist.name;
